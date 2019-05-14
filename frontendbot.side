@@ -1,0 +1,555 @@
+{
+  "id": "e025a109-bf70-4cae-820f-3f61dc278663",
+  "version": "2.0",
+  "name": "frontendbot",
+  "url": "https://broker.tembtc.com.br/usuario/conta/login",
+  "tests": [{
+    "id": "8950a6a4-e416-42b5-8ddc-447ad912ba5e",
+    "name": "T3",
+    "commands": [{
+      "id": "e8202843-a549-4a9a-bb70-8d7699d452ad",
+      "comment": "",
+      "command": "open",
+      "target": "https://broker.batexchange.com.br/usuario/conta/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edd26faf-0cba-4cd1-b489-a345e44c4021",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1158x867",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39223aec-d824-4500-a097-a78afe358304",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f2aebf-af30-4916-a0ad-fc6624f97cde",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "caiohn"
+    }, {
+      "id": "0de55605-9130-48d1-a1f9-0fb4adab0b27",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_PanelLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_PanelLogin", "id"],
+        ["css=#ctl00_ContentPlaceHolder1_PanelLogin", "css:finder"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[3]/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12575811-366f-4021-a8aa-21e37ab8f5e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxSenha",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxSenha", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxSenha", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxSenha", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxSenha']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42c9c13e-3661-4416-b902-0f19b171a7b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxSenha",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxSenha", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxSenha", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxSenha", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxSenha']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Oce@ns124Eva"
+    }, {
+      "id": "1ff647cc-b098-4ee2-ad2d-cecd27988f5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_PanelLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_PanelLogin", "id"],
+        ["css=#ctl00_ContentPlaceHolder1_PanelLogin", "css:finder"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[3]/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf949086-8764-4105-a4de-ef86a3c9a203",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "6572045b-a566-434d-8d52-47b143703ce9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-checkmark",
+      "targets": [
+        ["css=.recaptcha-checkbox-checkmark", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1122343-3528-4ac5-92c5-fdd330f82f41",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "daf1777f-7f72-419d-9aa8-d8cd5255c16c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_LinkButtonLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_LinkButtonLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$LinkButtonLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_LinkButtonLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_LinkButtonLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3624be9-311b-4d6c-8dcc-9a8855a64f07",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF", "id"],
+        ["name=ctl00$ContentPlaceHolder1$CheckBoxUsuarioCPF", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelConfirmarDados']/div/div[2]/div[2]/div/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18b72d64-ef86-445e-ac1d-407077fd6bb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_ButtonValidar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ButtonValidar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ButtonValidar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ButtonValidar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ButtonValidar']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelConfirmarDados']/div/div[2]/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e43725d3-8578-4ca7-8416-51615416a269",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdowntoggler",
+      "targets": [
+        ["id=dropdowntoggler", "id"],
+        ["css=#dropdowntoggler", "css:finder"],
+        ["xpath=//a[@id='dropdowntoggler']", "xpath:attributes"],
+        ["xpath=//div[@id='navbar']/ul/li[7]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a071969a-2cd9-41c2-abe1-697a8872801a",
+    "name": "T2",
+    "commands": [{
+      "id": "5e9daa5c-e03c-4e95-9c17-2ecaac6e8635",
+      "comment": "",
+      "command": "open",
+      "target": "https://broker.negociecoins.com.br/usuario/conta/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac6e3675-e91d-4b63-ac3b-6e374772c65d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1158x867",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3901ea33-18f0-426c-93c9-84319ce7f082",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9e96f2a-c90e-4df7-9afd-392cb4ee3fc7",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "chnobrega"
+    }, {
+      "id": "c8874977-1f1b-47c1-b99d-80cf46983083",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5cac52bd-348d-4d5a-967a-91716624b4d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section-default",
+      "targets": [
+        ["css=.section-default", "css:finder"],
+        ["xpath=//form[@id='aspnetForm']/div[3]/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab82bc28-612c-47d0-a85c-6170cb914f5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxSenha",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxSenha", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxSenha", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxSenha", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxSenha']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b8fb13-e105-42d8-8be3-71e532327e74",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxSenha",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxSenha", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxSenha", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxSenha", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxSenha']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Oce@ns124Eva"
+    }, {
+      "id": "3033d187-192e-47cb-b3c9-5f5b79972214",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section-default",
+      "targets": [
+        ["css=.section-default", "css:finder"],
+        ["xpath=//form[@id='aspnetForm']/div[3]/div/section", "xpath:idRelative"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec2dd00-d24a-476c-9420-0db6eb45a537",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "399d3f01-22b0-4a06-b733-a586c793416b",
+      "comment": "",
+      "command": "click",
+      "target": "id=recaptcha-anchor-label",
+      "targets": [
+        ["id=recaptcha-anchor-label", "id"],
+        ["css=#recaptcha-anchor-label", "css:finder"],
+        ["xpath=//label[@id='recaptcha-anchor-label']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82da57ea-4104-4cd8-990f-5c3b29346a8f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7244bba-64ae-418d-8ed9-37c02c028d99",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_LinkButtonLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_LinkButtonLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$LinkButtonLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_LinkButtonLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_LinkButtonLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fa54dc7-886f-4e30-9173-a0d9c12f76fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF", "id"],
+        ["name=ctl00$ContentPlaceHolder1$CheckBoxUsuarioCPF", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelConfirmarDados']/div[2]/div[2]/div/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a84363a5-cd80-469f-8afa-f6a0b4fc8d14",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_ButtonValidar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ButtonValidar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ButtonValidar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ButtonValidar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ButtonValidar']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelConfirmarDados']/div[2]/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6b32d430-386a-4c42-b047-cc2b6d7b54ce",
+    "name": "T1",
+    "commands": [{
+      "id": "c96be519-dbf7-4266-8f76-5f47aaf4fe9a",
+      "comment": "",
+      "command": "open",
+      "target": "https://broker.tembtc.com.br/usuario/conta/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5bdef10-0e2f-49cd-b632-1fa1683c38bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1158x867",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3be4551a-0e67-4e45-9fb6-8911e8be7b4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80fdfe81-5e83-4a39-aa82-1a37b9c8d4b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "caiohn"
+    }, {
+      "id": "f7fa1f61-da3c-40be-b9f3-cc8581984a4b",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_PanelLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_PanelLogin", "id"],
+        ["css=#ctl00_ContentPlaceHolder1_PanelLogin", "css:finder"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[3]/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "855b3d74-a683-4973-b6ff-a645d0e2af2a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "189a2036-365e-4eaa-9719-2df4c227ccf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-checkmark",
+      "targets": [
+        ["css=.recaptcha-checkbox-checkmark", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddd2c194-dd9a-4f8e-843e-6bf46501e9a8",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "12b5164e-53d7-414b-8dc8-4ea25f80ae84",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxSenha",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxSenha", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxSenha", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxSenha", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxSenha']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98931162-fbdc-49a9-a7dc-f7194f5b62f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentPlaceHolder1_TextBoxSenha",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_TextBoxSenha", "id"],
+        ["name=ctl00$ContentPlaceHolder1$TextBoxSenha", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_TextBoxSenha", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_TextBoxSenha']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Oce@ns124Eva"
+    }, {
+      "id": "f7925961-8222-4f11-bd95-30e53344f259",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_PanelLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_PanelLogin", "id"],
+        ["css=#ctl00_ContentPlaceHolder1_PanelLogin", "css:finder"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[3]/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81318adb-ef43-4af3-89ae-b1d2ff8e6d0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_LinkButtonLogin",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_LinkButtonLogin", "id"],
+        ["name=ctl00$ContentPlaceHolder1$LinkButtonLogin", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_LinkButtonLogin", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_LinkButtonLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelLogin']/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9b70aa8-e7dc-4666-955a-1305d253d352",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF", "id"],
+        ["name=ctl00$ContentPlaceHolder1$CheckBoxUsuarioCPF", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_CheckBoxUsuarioCPF']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelConfirmarDados']/div/div[2]/div[2]/div/div/label/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a98a3ab-b021-4a18-baf5-61b33c5ac453",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentPlaceHolder1_ButtonValidar",
+      "targets": [
+        ["id=ctl00_ContentPlaceHolder1_ButtonValidar", "id"],
+        ["name=ctl00$ContentPlaceHolder1$ButtonValidar", "name"],
+        ["css=#ctl00_ContentPlaceHolder1_ButtonValidar", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentPlaceHolder1_ButtonValidar']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentPlaceHolder1_PanelConfirmarDados']/div/div[2]/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6dee0760-c533-4972-8f2b-16dbe0c4ba75",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.batexchange.com.br/", "https://broker.batexchange.com.br/usuario/conta/login", "https://broker.negociecoins.com.br/usuario/conta/login"],
+  "plugins": []
+}
